@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="32"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="sword.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.145833"
+     inkscape:cx="41.126978"
+     inkscape:cy="20.416717"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1020.3622)">
+    <path
+       style="color:#000000;fill:#00aa00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 0.33114878,1026.4427 0.30547754,-5.3339 5.16477038,-0.1364 18.3349973,18.3346 -5.470248,5.4702 z"
+       id="rect2985"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/marek/Hack&amp;Slash/sprites/sword.png"
+       inkscape:export-xdpi="88.818359"
+       inkscape:export-ydpi="88.818359" />
+    <path
+       style="color:#000000;fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 5.8099524,1020.9796 -5.16593283,0.1375 0,0.078 20.80122943,20.8012 2.690998,-2.691 -18.3262946,-18.3269 z"
+       id="path2996"
+       inkscape:export-filename="/home/marek/Hack&amp;Slash/sprites/sword.png"
+       inkscape:export-xdpi="88.818359"
+       inkscape:export-ydpi="88.818359"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <rect
+       style="color:#000000;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect2988"
+       width="5.1041737"
+       height="15.312521"
+       x="750.53943"
+       y="713.90979"
+       inkscape:export-filename="/home/marek/Hack&amp;Slash/sprites/sword.png"
+       inkscape:export-xdpi="88.818359"
+       inkscape:export-ydpi="88.818359"
+       transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)" />
+    <rect
+       style="color:#000000;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect2990"
+       width="8.294282"
+       height="4.2268939"
+       x="752.66956"
+       y="719.49249"
+       inkscape:export-filename="/home/marek/Hack&amp;Slash/sprites/sword.png"
+       inkscape:export-xdpi="88.818359"
+       inkscape:export-ydpi="88.818359"
+       transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path2992"
+       sodipodi:cx="44.276634"
+       sodipodi:cy="21.66729"
+       sodipodi:rx="3.7233646"
+       sodipodi:ry="3.7233646"
+       d="m 47.999999,21.66729 a 3.7233646,3.7233646 0 1 1 -7.446729,0 3.7233646,3.7233646 0 1 1 7.446729,0 z"
+       transform="matrix(0.62855461,0.62855461,-0.62855461,0.62855461,14.283988,1007.3251)"
+       inkscape:export-filename="/home/marek/Hack&amp;Slash/sprites/sword.png"
+       inkscape:export-xdpi="88.818359"
+       inkscape:export-ydpi="88.818359" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#00ff66;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path2994"
+       sodipodi:cx="44.321495"
+       sodipodi:cy="24.942057"
+       sodipodi:rx="1.1663551"
+       sodipodi:ry="1.1663551"
+       d="m 45.48785,24.942057 a 1.1663551,1.1663551 0 1 1 -2.33271,0 1.1663551,1.1663551 0 1 1 2.33271,0 z"
+       transform="matrix(0.79778087,0.79778087,-0.79778087,0.79778087,13.091041,993.46093)"
+       inkscape:export-filename="/home/marek/Hack&amp;Slash/sprites/sword.png"
+       inkscape:export-xdpi="88.818359"
+       inkscape:export-ydpi="88.818359" />
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+# Game
+
+Items:
+ - Food - Glitch (www.glitchthegame.com)
+ - Doors, Bats - Kenney Vleugels (www.kenney.nl)
+
+
+Sounds (from Freesound.org):
+ - bevangoldswain - Footsteps (running hard surface.wav)
+ - 123jorre456 - Sliding on floor (sliding paper on table.wav)
+ - qubodup - Attack sounds (Sword Slash Attack)
+ - unfa - Hitting the wall (Hits 3 - Wood)
+ - matucha - Doors (DOOR Wood INT open close close-perspective_02.wav)
+ - fins - Pick-Up (game pick up object)
+ - Bertrof - Menu sounds (Game Sounds pack)
+
+
+Libraries:
+ - Rot.js
+ - PIXI.js
+ - Proton.js
+ - Tween.js
+
+# Trailer
+
+Music:
+ - Jean Paul Zoghbi - Into The Sunrise And Beyod
+
+Icons:
+ - manhattan - Buuf icon pack
+
+Font:
+ - por-que-tan-serio - Alice In Wonderland
+

@@ -1,0 +1,12 @@
+
+
+* Plan
+** Zrobić nagranie
+** Zgrać screencasta do filmu
+** Dokończyć film
+** Wrzucić kod na GitHuba
+** Wrzucić film na YT
+* Pomysły do filmu
+** Physics-based movement system
+** Works everywhere
+** Open source
