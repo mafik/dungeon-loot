@@ -379,12 +379,6 @@ Human.prototype.look = function(a) {
   
   this.reye.position.x = Math.cos(this.last_a + Math.PI/4) * 17;
   this.reye.position.y = Math.sin(this.last_a + Math.PI/4) * 17 - 8;
-  
-  if(this.headItem.children.length) {
-    if(this.headItem.children[0].look) {
-      this.headItem.children[0].look(this.last_a);
-    }
-  }
 };
 
 function Player() {

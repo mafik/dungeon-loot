@@ -121,15 +121,11 @@ Shirt.prototype.texture = PIXI.Texture.fromImage('sprites/shirt.png');
 function Hood(name) {
   Item.call(this, null, name, 'head');
   
-  for(var i = 1; i <= 4; ++i) {
-    var t = this['tex' + i] = PIXI.Sprite.fromImage('sprites/hood' + i + '.png');
-    t.anchor.x = typeof anchorX === 'undefined' ? .5 : anchorX;
-    t.anchor.y = typeof anchorY === 'undefined' ? .5 : anchorY;
-    t.visible = false;
-    this.addChild(t);
-  }
+  var t = this.texture = PIXI.Sprite.fromImage('sprites/hood.png');
+  t.anchor.x = .5;
+  t.anchor.y = .5;
+  this.addChild(t);
 }
-
 Hood.prototype = Object.create(Item.prototype);
 Hood.prototype.constructor = Hood;
 
