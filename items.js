@@ -74,8 +74,7 @@ var stats = ['life', 'armor', 'damage', 'speed'];
 var types = ['hand', 'head', 'body'];
 
 var slots = [
-  { name: 'Left hand', type: 'hand', id: 'left' },
-  { name: 'Right hand', type: 'hand', id: 'right' },
+  { name: 'Hand', type: 'hand', id: 'left' },
   { name: 'Head', type: 'head', id: 'head' },
   { name: 'Body', type: 'body', id: 'body' },
 ];
