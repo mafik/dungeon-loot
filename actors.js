@@ -847,6 +847,25 @@ Bat.prototype.logic = function() {
   this.velocity.x += Math.random() - .5;
   this.velocity.y += Math.random() - .5;
   this.velocity.z += Math.random() - .5;
+  
+  var LIMIT = 200;
+  var SPEED = .17;
+  var closest;
+  var closest_d = LIMIT;
+  for(var i = 0; i < players.length; ++i) {
+    var d = Math.hypot(this.position.x - players[i].position.x, this.position.y - players[i].position.y);
+    if(d < closest_d) {
+      closest = players[i];
+      closest_d = d;
+    }
+  }
+  
+  if(closest) {
+    var a = Math.atan2(closest.position.y - this.position.y, closest.position.x - this.position.x);
+    this.velocity.x += Math.cos(a) * SPEED;
+    this.velocity.y += Math.sin(a) * SPEED;
+  }
+  
   this.velocity.x *= .9;
   this.velocity.y *= .9;
   this.velocity.z *= .9;
