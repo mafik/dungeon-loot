@@ -575,8 +575,8 @@ function Player() {
   
   
   
-  this.attackLeft = new Action();
-  this.attackLeft.start = function() {
+  this.attack = new Action();
+  this.attack.start = function() {
     if(player.leftItem.children.length) {
       var sprite = player.leftItem.children[0];
       var container = player.leftArm;
@@ -586,18 +586,21 @@ function Player() {
     }
   };
   
+  this.attackUp = new Action();
   this.attackRight = new Action();
-  this.attackRight.start = function() {
-    if(player.rightItem.children.length) {
-      var sprite = player.rightItem.children[0];
-      var container = player.rightArm;
+  this.attackDown = new Action();
+  this.attackLeft = new Action();
+  /*
+  this.attackLeft.start = function() {
+    if(player.leftItem.children.length) {
+      var sprite = player.leftItem.children[0];
+      var container = player.leftArm;
       var item = sprite.original;
       if(item.start)
         return item.start(player, container, sprite);
     }
   };
-  
-  
+  */
 
   // starting equipment
 
@@ -632,6 +635,8 @@ Player.prototype.isItemVisible = function(item) {
 }
 
 Player.prototype.update = function() {
+  
+  this.attack.setPressed(this.attackUp.pressed || this.attackRight.pressed || this.attackDown.pressed || this.attackLeft.pressed);
   var dx = this.velocity.x;
   var dy = this.velocity.y;
   Human.prototype.update.call(this);

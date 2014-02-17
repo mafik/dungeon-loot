@@ -63,8 +63,10 @@ var controls = [
     { name: 'moveRight', prompt: 'Press right button' },
     { name: 'moveDown', prompt: 'Press down button' },
     { name: 'moveLeft', prompt: 'Press left button' },
-    { name: 'attackLeft', prompt: 'Press left attack' },
-    { name: 'attackRight', prompt: 'Press right attack' },
+    { name: 'attackUp', prompt: 'Press attack up' },
+    { name: 'attackRight', prompt: 'Press attack right' },
+    { name: 'attackDown', prompt: 'Press attack down' },
+    { name: 'attackLeft', prompt: 'Press attack left' },
     { name: 'menu', prompt: 'Press menu button' }
 ];
 
