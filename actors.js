@@ -635,10 +635,12 @@ Player.prototype.isItemVisible = function(item) {
 }
 
 Player.prototype.update = function() {
-  
+  var dy = (this.attackUp.pressed ? -1 : 0) + (this.attackDown.pressed ? 1 : 0);
+  var dx = (this.attackRight.pressed ? 1 : 0) + (this.attackLeft.pressed ? -1 : 0);
+  this.attack_a = Math.atan2(dy, dx);
   this.attack.setPressed(this.attackUp.pressed || this.attackRight.pressed || this.attackDown.pressed || this.attackLeft.pressed);
-  var dx = this.velocity.x;
-  var dy = this.velocity.y;
+  dx = this.velocity.x;
+  dy = this.velocity.y;
   Human.prototype.update.call(this);
   dx -= this.velocity.x;
   dy -= this.velocity.y;

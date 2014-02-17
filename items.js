@@ -174,15 +174,15 @@ Sword.prototype.start = function(player, arm, sprite) {
   effect.anchor.y = .5;
   effect.scale.x = 2;
   effect.scale.y = 2;
-  effect.position.x = player.position.x + Math.cos(player.last_a) * 80;
-  effect.position.y = player.position.y + Math.sin(player.last_a) * 80 - 50;
-  effect.rotation = player.last_a + Math.PI/3;
+  effect.position.x = player.position.x + Math.cos(player.attack_a) * 80;
+  effect.position.y = player.position.y + Math.sin(player.attack_a) * 80 - 50;
+  effect.rotation = player.attack_a + Math.PI/3;
   world.addChild(effect);
   var sound = new Audio('sounds/sword' + Math.floor(Math.random()*2) + '.mp3');
   sound.volume = .2;
   sound.play();
-  new TWEEN.Tween( { r: player.last_a + Math.PI/3, a: 1 } )
-    .to( { r: player.last_a - Math.PI/3, a: 0 }, 500 )
+  new TWEEN.Tween( { r: player.attack_a + Math.PI/3, a: 1 } )
+    .to( { r: player.attack_a - Math.PI/3, a: 0 }, 500 )
     .easing( TWEEN.Easing.Circular.Out )
     .onUpdate( function () { 
       arm.rotation = this.a * Math.PI * 2 * (arm === player.rightArm ? -1 : 1);
