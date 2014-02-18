@@ -394,7 +394,7 @@ function Player() {
   
   function makeSlot(text) {
       var slot = new PIXI.Sprite.fromImage('sprites/tile.jpg');
-      text = new PIXI.Text(text, { fill: '#666', font: '20pt "Penguin Attack"' });
+      text = new PIXI.Text(text, { fill: '#666', font: '18pt "Gabriela"' });
       text.rotation = Math.PI/2;
       text.position.y = 48 + 5;
       text.position.x = 24;
@@ -419,6 +419,7 @@ function Player() {
       this.slots.addChild(slot);
   }
   
+  
   var heart = this.heart = new PIXI.Sprite(this.heartTexture);
   heart.position.y = -80;
   heart.position.x = -23;
@@ -426,11 +427,11 @@ function Player() {
   heart.anchor.y = 1;
   this.addChild(heart);
   
-  var heartText = this.heartText = new PIXI.Text('' + this.life + '/' + this.maxLife, { fill: '#800', font: '20pt "Penguin Attack"' });
+  var heartText = this.heartText = new PIXI.Text('' + this.life + '/' + this.maxLife, { fill: '#800', font: '18pt "Gabriela"' });
   heartText.anchor.x = 0;
   heartText.anchor.y = 1;
   heartText.position.x = 5;
-  heartText.position.y = 4;
+  heartText.position.y = 0;
   heart.addChild(heartText);
   
   var shield = new PIXI.Sprite(this.shieldTexture);
@@ -440,11 +441,11 @@ function Player() {
   shield.anchor.y = 1;
   characterSheet.addChild(shield);
   
-  var shieldText = this.shieldText = new PIXI.Text('' + this.armor, { fill: '#2c93a0', font: '20pt "Penguin Attack"' });
+  var shieldText = this.shieldText = new PIXI.Text('' + this.armor, { fill: '#2c93a0', font: '18pt "Gabriela"' });
   shieldText.anchor.x = 0;
   shieldText.anchor.y = 1;
   shieldText.position.x = 5;
-  shieldText.position.y = 4;
+  shieldText.position.y = 0;
   shield.addChild(shieldText);
   
   var sword = new PIXI.Sprite(this.swordTexture);
@@ -454,11 +455,11 @@ function Player() {
   sword.anchor.y = 1;
   characterSheet.addChild(sword);
   
-  var swordText = this.swordText = new PIXI.Text('' + this.armor, { fill: '#42d01c', font: '20pt "Penguin Attack"' });
+  var swordText = this.swordText = new PIXI.Text('' + this.armor, { fill: '#42d01c', font: '18pt "Gabriela"' });
   swordText.anchor.x = 0;
   swordText.anchor.y = 1;
   swordText.position.x = 5;
-  swordText.position.y = 4;
+  swordText.position.y = 0;
   sword.addChild(swordText);
   
   var speed = new PIXI.Sprite(this.speedTexture);
@@ -468,11 +469,11 @@ function Player() {
   speed.anchor.y = 1;
   characterSheet.addChild(speed);
   
-  var speedText = this.speedText = new PIXI.Text('' + this.armor, { fill: '#5a2ca0', font: '20pt "Penguin Attack"' });
+  var speedText = this.speedText = new PIXI.Text('' + this.armor, { fill: '#5a2ca0', font: '18pt "Gabriela"' });
   speedText.anchor.x = 0;
   speedText.anchor.y = 1;
   speedText.position.x = 5;
-  speedText.position.y = 4;
+  speedText.position.y = 0;
   speed.addChild(speedText);
   
 
@@ -848,7 +849,7 @@ Bat.prototype.logic = function() {
   this.velocity.y += Math.random() - .5;
   this.velocity.z += Math.random() - .5;
   
-  var LIMIT = 200;
+  var LIMIT = 300;
   var SPEED = .17;
   var closest;
   var closest_d = LIMIT;

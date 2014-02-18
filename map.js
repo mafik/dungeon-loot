@@ -3,6 +3,14 @@ var map;
 var filled;
 var doors = [];
 
+/**
+ * Checks Line-Of-Sight between object a and b.
+ * Objects should have attribute `position` with pixel positions.
+ */
+function los(a, b) {
+    // TODO
+}
+
 function makeDungeon() {
     ROT.RNG.setSeed(+new Date);
     map = new ROT.Map.Digger(40, 40);

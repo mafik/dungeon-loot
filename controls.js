@@ -90,7 +90,7 @@ function addPlayers() {
     }
 }
 
-var message = new PIXI.Text('DON\'T PANIC. This is just a prototype', { fill: '#000', font: '20pt "Penguin Attack"' });
+var message = new PIXI.Text('DON\'T PANIC. This is just a prototype', { fill: '#000', font: '20pt "Gabriela"' });
 message.position.x = Math.round(innerWidth/2);
 message.position.y = 10;
 message.anchor.y = 0;

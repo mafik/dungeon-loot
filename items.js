@@ -89,7 +89,7 @@ function Item(texture, name, type, anchorX, anchorY) {
   }
   this.name = name;
   this.type = type;
-  this.text = new PIXI.Text(name || '???', { fill: '#444', font: '20pt "Penguin Attack"' })
+  this.text = new PIXI.Text(name || '???', { fill: '#444', font: '20pt "Gabriela"' })
   this.text.alpha = 0;
   this.text.anchor.y = .5;
   this.text.position.x = 28;
